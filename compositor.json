@@ -1,0 +1,89 @@
+{
+  "name": "bogdansoare/web-starter",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "Web Starter",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/bogdansoare/web-starter",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/image-scroller",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "web-starter",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "web-starter: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "bogdansoare",
+          "repo": "web-starter"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>:zap: Web starter</h1>\n<h2>Installation</h2>\n<p>You need to have <strong>npm</strong> installed. After that run</p>\n<pre>npm install</pre><h2>Development with local server</h2>\n<pre>npm start</pre><h2>Generate development build</h2>\n<pre>npm run build</pre><h2>Generate production build</h2>\n<pre>npm run prod</pre><p>:information_source: All builds are generated in the folder <strong>dist</strong></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/bogdansoare/web-starter",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/bogdansoare",
+          "text": "bogdansoare"
+        }
+      ]
+    }
+  ]
+}
