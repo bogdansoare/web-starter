@@ -36,19 +36,6 @@
   },
   "content": [
     {
-      "component": "nav",
-      "links": [
-        {
-          "href": "https://github.com/bogdansoare/web-starter",
-          "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/image-scroller",
-          "text": "npm"
-        }
-      ]
-    },
-    {
       "component": "header",
       "heading": "web-starter",
       "children": [
@@ -64,6 +51,19 @@
         }
       ],
       "text": "v1.0.0"
+    },
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/bogdansoare/web-starter",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/image-scroller",
+          "text": "npm"
+        }
+      ]
     },
     {
       "component": "article",
